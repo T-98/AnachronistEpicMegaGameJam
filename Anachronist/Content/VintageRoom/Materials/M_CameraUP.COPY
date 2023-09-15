@@ -1,0 +1,83 @@
+Begin Object Class=/Script/Engine.Material Name="M_CameraUP"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_B.T_Camera_02a_4096_B"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=C898021D4D25D7226DBB0C98AB89B255
+      Material=Material'"M_CameraUP"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_M.T_Camera_02a_4096_M"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=3FB1D0F14B1744FCF0011A99B25EDE48
+      Material=Material'"M_CameraUP"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_R.T_Camera_02a_4096_R"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-454
+      MaterialExpressionEditorY=312
+      MaterialExpressionGuid=281F2ADF4CE42863260C2388767B30F2
+      Material=Material'"M_CameraUP"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_N.T_Camera_02a_4096_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=8E2999144CBD5C04373C18841475D51E
+      Material=Material'"M_CameraUP"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_AO.T_Camera_02a_4096_AO"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=98AC3BD043B4BC79453F4B907D9AFB91
+      Material=Material'"M_CameraUP"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=16
+   EditorY=48
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=86C8BDFF4A146FFABECCEA80882663A5
+   ReferencedTextureGuids(0)=E8A55FEF46804DBE15242F937BC15B56
+   ReferencedTextureGuids(1)=6EF8C83B48D96A42695806BE02E0953C
+   ReferencedTextureGuids(2)=B1C426894D905EF543C97AADF8E2A44D
+   ReferencedTextureGuids(3)=D3E74CAD41CDA2E4710EF6A4E2F35AA7
+   ReferencedTextureGuids(4)=B720DEB245C60C3EDD7241B39704D99C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Camera_02a_4096_AO",TextureReference=/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_AO.T_Camera_02a_4096_AO)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Camera_02a_4096_B",TextureReference=/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_B.T_Camera_02a_4096_B)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Camera_02a_4096_M",TextureReference=/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_M.T_Camera_02a_4096_M)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Camera_02a_4096_N",TextureReference=/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_N.T_Camera_02a_4096_N)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Camera_02a_4096_R",TextureReference=/Game/Props/Vintage/SM_Vintage_Building_Modules/Scene_Props/Texture/Camera/T_Camera_02a_4096_R.T_Camera_02a_4096_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=FC9F8A09473153A209E7158C574DD939
+End Object
